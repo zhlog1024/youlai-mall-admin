@@ -239,7 +239,7 @@ export default {
         const urlPerm = data.urlPerm
         this.form = data
         if (urlPerm) {
-          // GET:/youlai-admin/api/v1/users
+          // GET:/hft-admin-server/api/v1/users
           const permArr = urlPerm.split(':')
           const requestMethod = permArr[0]
           const serviceName = permArr[1].substring(1, permArr[1].substr(1).indexOf('/') + 1)

@@ -9,7 +9,7 @@ import request from '@/utils/request'
  */
 export function getData() {
   return request({
-    url: '/youlai-admin/api/v1/dashboard',
+    url: '/hft-admin-server/admin-api/v1/system/dashboard',
     method: 'get'
   })
 }
